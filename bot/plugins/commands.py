@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption =@Tg_Hydra_Music_world,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                         My Group 🌟', url="https://t.me/Tg_Hydra_Music_world"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developers', url='https://t.me/Tg_Hydra_Music_world'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/hydraviggu/Autofilterbotv2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/Tg_Hydra_Music_world')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
